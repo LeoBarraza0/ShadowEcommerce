@@ -1,0 +1,97 @@
+{% extends 'adminheader.html' %}
+{% block content %}
+<section class="user-management">
+    <div class="header-section">
+        <h1>Gestión de Usuarios</h1>
+        <button class="btn add-user" onclick="openAddUserForm()">Agregar Usuario</button>
+    </div>
+    <div class="table-container">
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Correo Electrónico</th>
+                    <th>Rol</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Leonardo Barraza</td>
+                    <td>leonardobarraza10a@gmail.com</td>
+                    <td>Administrador</td>
+                    <td>
+                        <button class="btn edit-btn" onclick="editUser(1)">Editar</button>
+                        <button class="btn delete-btn" onclick="deleteUser(1)">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ana Pérez</td>
+                    <td>ana.perez@example.com</td>
+                    <td>Usuario</td>
+                    <td>
+                        <button class="btn edit-btn" onclick="editUser(2)">Editar</button>
+                        <button class="btn delete-btn" onclick="deleteUser(2)">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Carlos Gómez</td>
+                    <td>carlos.gomez@example.com</td>
+                    <td>Usuario</td>
+                    <td>
+                        <button class="btn edit-btn" onclick="editUser(3)">Editar</button>
+                        <button class="btn delete-btn" onclick="deleteUser(3)">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<script>
+    // Ejemplo de datos dinámicos (se sustituye por datos reales en backend)
+    const usuarios = [
+        { id: 1, nombre: 'Juan Pérez', correo: 'juan.perez@example.com', rol: 'Usuario' },
+        { id: 2, nombre: 'María Gómez', correo: 'maria.gomez@example.com', rol: 'Administrador' },
+    ];
+
+    // Generar contenido dinámico de la tabla
+    function cargarUsuarios() {
+        const tbody = document.getElementById('tabla-usuarios-body');
+        tbody.innerHTML = '';
+        usuarios.forEach(usuario => {
+            const fila = document.createElement('tr');
+            fila.innerHTML = `
+                <td>${usuario.id}</td>
+                <td>${usuario.nombre}</td>
+                <td>${usuario.correo}</td>
+                <td>${usuario.rol}</td>
+                <td>
+                    <button class="btn editar" onclick="editarUsuario(${usuario.id})">Editar</button>
+                    <button class="btn eliminar" onclick="eliminarUsuario(${usuario.id})">Eliminar</button>
+                </td>
+            `;
+            tbody.appendChild(fila);
+        });
+    }
+
+    // Acciones de los botones
+    function agregarUsuario() {
+        alert('Función para agregar usuario');
+    }
+
+    function editarUsuario(id) {
+        alert(`Función para editar usuario con ID: ${id}`);
+    }
+
+    function eliminarUsuario(id) {
+        alert(`Función para eliminar usuario con ID: ${id}`);
+    }
+
+    // Cargar usuarios al cargar la página
+    cargarUsuarios();
+</script>
+{% endblock content %}

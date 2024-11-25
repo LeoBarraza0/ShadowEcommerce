@@ -1,0 +1,202 @@
+[
+    {
+        "id": "11",
+        "titulo": "Abrigo 01",
+        "imagen": "static/img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Abrigo de lana de corte clásico, ideal para los días fríos. Combina confort y estilo en una sola pieza."
+    },
+    {
+        "id": "12",
+        "titulo": "Abrigo 02",
+        "imagen": "static/img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Abrigo de diseño elegante, perfecto para un look sofisticado durante las estaciones más frías."
+    },
+    {
+        "id": "13",
+        "titulo": "Abrigo 03",
+        "imagen": "static/img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Abrigo de doble faz con capucha removible, ideal para protegerte del viento y la lluvia sin perder estilo."
+    },
+    {
+        "id": "14",
+        "titulo": "Abrigo 04",
+        "imagen": "static/img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Abrigo de corte moderno, perfecto para mantenerte abrigado durante el invierno con un toque urbano."
+    },
+    {
+        "id": "15",
+        "titulo": "Abrigo 05",
+        "imagen": "static/img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Abrigo cálido y confortable, ideal para los días más fríos sin sacrificar el estilo."
+    },
+    {
+        "id": "21",
+        "titulo": "Camiseta 01",
+        "imagen": "static/img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta de algodón suave y respirante, ideal para el uso diario. Disponible en varios colores."
+    },
+    {
+        "id": "22",
+        "titulo": "Camiseta 02",
+        "imagen": "static/img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta casual con un diseño sencillo y elegante, perfecta para cualquier ocasión."
+    },
+    {
+        "id": "23",
+        "titulo": "Camiseta 03",
+        "imagen": "static/img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta de corte moderno con estampado, una pieza cómoda para tu look diario."
+    },
+    {
+        "id": "24",
+        "titulo": "Camiseta 04",
+        "imagen": "static/img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta con cuello redondo y manga corta, fabricada con materiales de alta calidad para mayor durabilidad."
+    },
+    {
+        "id": "25",
+        "titulo": "Camiseta 05",
+        "imagen": "static/img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta básica que no puede faltar en tu armario, ideal para combinar con jeans o pantalones."
+    },
+    {
+        "id": "26",
+        "titulo": "Camiseta 06",
+        "imagen": "static/img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta cómoda y versátil, perfecta para actividades informales y descansar en casa."
+    },
+    {
+        "id": "27",
+        "titulo": "Camiseta 07",
+        "imagen": "static/img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta con diseño gráfico atractivo, una opción ideal para los amantes de los looks más atrevidos."
+    },
+    {
+        "id": "28",
+        "titulo": "Camiseta 08",
+        "imagen": "static/img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta con corte slim fit, diseñada para ofrecerte comodidad y un ajuste perfecto."
+    },
+    {
+        "id": "31",
+        "titulo": "Pantalón 01",
+        "imagen": "static/img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Pantalón clásico de corte recto, ideal para cualquier ocasión. Hecho de materiales resistentes y cómodos."
+    },
+    {
+        "id": "32",
+        "titulo": "Pantalón 02",
+        "imagen": "static/img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Pantalón de mezclilla con un diseño atemporal, perfecto para el día a día o una salida casual."
+    },
+    {
+        "id": "33",
+        "titulo": "Pantalón 03",
+        "imagen": "static/img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Pantalón cómodo de algodón con cintura elástica, perfecto para descansar o hacer actividades al aire libre."
+    },
+    {
+        "id": "34",
+        "titulo": "Pantalón 04",
+        "imagen": "static/img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Pantalón de corte recto con detalles modernos, ideal para un look casual y relajado."
+    },
+    {
+        "id": "035",
+        "titulo": "Pantalón 05",
+        "imagen": "static/img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Pantalón deportivo de tela ligera, ideal para hacer ejercicio o para un look urbano cómodo."
+    }
+]
+
+
